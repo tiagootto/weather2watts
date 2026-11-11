@@ -24,6 +24,8 @@ Uma empresa de distribuição de energia quer perceber em que medida as **condi�
 
 O projeto constrói-se **a partir desta pasta-modelo**. O ambiente é livre. **Não é necessário usar Git.**
 
+**Antes de começar:** copiem o `dados_grupoXX.csv` fornecido para `data/` e substituam o `parametros.py` da pasta-modelo pelo `parametros.py` do vosso grupo. Sem estes dois ficheiros, o pipeline não corre com os parâmetros atribuídos.
+
 **Opção Google Colab (recomendada para quem não tem Python instalado):**
 1. Descarreguem a pasta-modelo (botão *Code → Download ZIP* no GitHub), extraiam-na e **carreguem a pasta inteira para o vosso Google Drive** (por exemplo, `Meu Drive/analytics_projeto`). Se trabalharem vários, partilhem a pasta no Drive.
 2. Abram os notebooks **a partir do Drive** (clique direito → *Abrir com → Google Colaboratory*), para que as alterações fiquem guardadas na mesma pasta.
@@ -67,7 +69,7 @@ O uso de assistentes de IA é **permitido e incentivado**, desde que declarado n
 
 ## 6. Entrega
 
-Um ficheiro **`.zip`** carregado na plataforma da escola, com a pasta do projeto completa: notebooks, `main.py`, `parametros.py`, `data/` (incluindo `data/raw/`), relatório gerado em `reports/`, `README.md` e `AI_LOG.md`. No Drive: clique direito na pasta → *Descarregar*.
+Um ficheiro **`.zip`** carregado na plataforma da escola, com a pasta do projeto completa: notebooks, `main.py`, `parametros.py`, `requirements.txt`, `data/` (incluindo `data/raw/`), relatório gerado em `reports/`, `README.md` e `AI_LOG.md`. No Drive: clique direito na pasta → *Descarregar*.
 
 ## 7. Calendário
 
@@ -75,7 +77,7 @@ Um ficheiro **`.zip`** carregado na plataforma da escola, com a pasta do projeto
 |---|---|---|
 | **Checkpoint** | 2026-11-23 | Entrega do notebook `A_aquisicao.ipynb` com as secções 1 a 4 (ver notebook): um pedido à API a funcionar para as 5 cidades. |
 | **Entrega final** | 2026-12-10 | Ficheiro `.zip` na plataforma. |
-| **Defesas** | 2026-12-11 e 2026-11-12 | Por grupo, em videochamada (câmara ligada, partilha de ecrã). |
+| **Defesas** | 2026-12-11 e 2026-12-12 | Por grupo, em videochamada (câmara ligada, partilha de ecrã). |
 
 ## 8. Avaliação
 

@@ -9,7 +9,11 @@ from parametros import PARAMETROS
 
 
 def obter_dados_cidade(nome, latitude, longitude, data_inicio, data_fim):
-    """Pede a API os dados diarios de uma cidade. Deve ter timeout e tratar erros."""
+    """Pede a API os dados diarios de uma cidade. Deve ter timeout e tratar erros.
+
+    Se ja existir uma resposta em data/raw/ para a mesma cidade e periodo,
+    reutiliza-a em vez de repetir o pedido a API.
+    """
     raise NotImplementedError
 
 
